@@ -8,8 +8,8 @@ int main(void)
     printf("Hello, %s! \n",yourname);
     char color[50];
     printf("Enter your favorite color: ");
-    scanf("%s", &yourname);
-    printf("Hello, %s! \n",yourname);
+    scanf("%s", &color);
+    printf("Wow, %s is a good color \n",color);
 
 
 }
