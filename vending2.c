@@ -20,21 +20,7 @@ int main(void){
  printf("-------------------------\n");
  printf("Item Name\tPrice\tQuantity\tSelection code\n");
 
- printf("Chicken Salad\t$%.2f\t%d",price1,quantity1);
- 
- printf("Item name: Chicken Salad\n");
-
- printf("Price: $%.2f\n",price1);
- printf("Quantity available: %d\n",quantity1);
- printf("Selection code: %c\n",code1);
- printf("\n");
- printf("Item name: Tacos de Birria\n");
- printf("Price: $%.2f\n",price2);
- printf("Quantity available: %d\n",quantity2);
- printf("Selection code: %c\n",code2);
- printf("\n");
- printf("Item name: Pozole\n");
- printf("Price: $%.2f\n",price3);
- printf("Quantity available: %d\n",quantity3);
- printf("Selection code: %c\n",code3);
+ printf("Chicken Salad\t$%.2f\t%d\t\t%c\n",price1,quantity1,code1);
+printf("Tacos de Birria\t$%.2f\t%d\t\t%c\n",price2,quantity2,code2);
+printf("Boneless\t$%.2f\t%d\t\t%c\n",price3,quantity3,code3);
 }
