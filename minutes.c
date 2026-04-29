@@ -2,17 +2,12 @@
 
 int main(void)
 {
-    float m;
-    printf("Movie running time (minutes): ");
-    scanf("%f",&m);
-    float h=(m/60);
-    printf("Start time: ");
-    scanf("%f",&h);
-    printf("\n");
-    printf("The movie will last:%f hours",&m);
-    scanf("%f",&h);
+   int m=128;
+   int h= m / 60;
 
-
+printf("minutes= ");
+scanf("%d",&m);
+printf("hours:%d",&h);
 
 
 
