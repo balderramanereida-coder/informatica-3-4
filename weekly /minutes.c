@@ -21,7 +21,7 @@ scanf("%d:%d", &sh,&sm);
 
  if (endm >=60) {
    endh= endh + ( endm/ 60) ;
-   endm= endm % 60;
+   endm= endm % 60; // we use this types of ifs so we can round the numbers and adapt them to the 60 minutes that the clock uses. thats why we divide.
   }
 
 printf("The movie will last %dhr and %dmin\n",h,m);
