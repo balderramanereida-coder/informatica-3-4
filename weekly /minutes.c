@@ -19,9 +19,14 @@ scanf("%d:%d", &sh,&sm);
  int endh = sh + h;
  int endm = sm + m;
 
-printf("The movie will last %dhr and %dmin\n",h,m);
-printf("End time: %d:%d\n", endh,endm);
+ if (endm >=60) {
+   endh= endh + ( endm/ 60) ;
+   endm= endm % 60;
+  }
 
+printf("The movie will last %dhr and %dmin\n",h,m);
+printf("End time: %d:%02d\n", endh,endm);
 
 
 }
+
