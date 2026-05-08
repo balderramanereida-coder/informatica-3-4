@@ -17,6 +17,6 @@ int main(void)
      {
         // when we add "{}" that means that we are inserting information that are related with our indications about the "if"
         printf("%d is a negative number. \n",number);
-    } else { printf("%d is a positive number. \n",number);
+    } else { printf("%d is a positive number. \n",number); // in this case, we use "else" to indicate that we are giving other options to our if
      }
 }
