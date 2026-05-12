@@ -41,8 +41,9 @@ void addition(void){
 printf("Enter number 1: ");
 scanf("%f",&n1);
 printf("Enter number 2: ");
+scanf("%f",&n2);
     float A=n1+n2;
-printf("%.2f+%.2f=%2f\n",n1,n2,A);
+printf("%.2f+%.2f=%2.f\n",n1,n2,A);
 }
 
 void subtraction(void){
@@ -51,8 +52,9 @@ void subtraction(void){
 printf("Enter number 1: ");
 scanf("%f",&n1);
 printf("Enter number 2: ");
+scanf("%f",&n2);
     float S=n1-n2;
-printf("%.2f-%.2f=%2f\n",n1,n2,S);
+printf("%.2f-%.2f=%2.f\n",n1,n2,S);
 }
 
 void multiplication(void){
@@ -61,8 +63,9 @@ void multiplication(void){
 printf("Enter number 1: ");
 scanf("%f",&n1);
 printf("Enter number 2: ");
+scanf("%f",&n2);
     float M=n1*n2;
-printf("%.2f+%.2f=%2f\n",n1,n2,M);
+printf("%.2f*%.2f=%2.f\n",n1,n2,M);
 }
 
 void division(void){
@@ -71,7 +74,8 @@ void division(void){
 printf("Enter number 1: ");
 scanf("%f",&n1);
 printf("Enter number 2: ");
+scanf("%f",&n2);
     float D=n1/n2;
-printf("%.2f+%.2f=%2f\n",n1,n2,D);
+printf("%.2f/%.2f=%.2f\n",n1,n2,D);
 }
 
